@@ -1,0 +1,1 @@
+INSERT INTO voyaqqerer (id,name,profile,age) VALUES ('1','ベンソン','Hello!世界!',15);

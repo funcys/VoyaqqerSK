@@ -1,0 +1,6 @@
+CREATE TABLE  IF NOT EXISTS voyaqqerer (
+	id VARCHAR(50) PRIMARY KEY,
+	name VARCHAR(50),
+	profile VARCHAR(100),
+	age INT
+);
