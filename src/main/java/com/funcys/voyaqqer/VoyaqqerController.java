@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class VoyaqqerController {
 
 	@Autowired
-	private VoyaqqerService service;
+	private VoyaqqererService service;
 
 	@GetMapping("/voyaqqer")
 	public String getVoyaqqer() {
@@ -33,7 +33,7 @@ public class VoyaqqerController {
 	@PostMapping("/voyaqqer/db")
 	public String postDbRequest(@RequestParam("voyaqqererId") String id,Model model) {
 
-		//1件
+		//1件検索
 		Voyaqqerer voyaqqerer = service.getVoyaqqerer(id);
 
 		//検索結果をModelに登録

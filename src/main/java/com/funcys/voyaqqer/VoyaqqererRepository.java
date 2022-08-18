@@ -7,7 +7,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public class VoyaqqerRepository {
+public class VoyaqqererRepository {
 
 	@Autowired
 	private JdbcTemplate jdbcTemplate;
@@ -15,13 +15,13 @@ public class VoyaqqerRepository {
 	public Map<String,Object>findById(String id) {
 
 		//SELECT文
-		String query = "SELECT *"
-				+ "FROM voyaqqer"
+		String query = "SELECT * "
+				+ "FROM voyaqqerer "
 				+ "WHERE id=?";
 
 		//検索実行
-		Map<String, Object>voyaqqer = jdbcTemplate.queryForMap(query,id);
+		Map<String, Object>voyaqqerer = jdbcTemplate.queryForMap(query,id);
 
-		return voyaqqer;
+		return voyaqqerer;
 	}
 }

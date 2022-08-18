@@ -7,11 +7,23 @@
 <body>
 	<h1>ボヤッカラーリスト</h1>
 	<table>
+	<tr>
+		<td>ボヤッカーID:</td>
 		<td th:text="${voyaqqerer.voyaqqererId}"></td>
+	</tr>
+	<tr>
+		<td>ボヤッカーNAME:</td>
 		<td th:text="${voyaqqerer.voyaqqererName}"></td>
+	</tr>
+	<tr>
+		<td>ボヤッカーPROFILE:</td>
 		<td th:text="${voyaqqerer.voyaqqererProfile}"></td>
+	</tr>
+	<tr>
+		<td>年齢:</td>
 		<td th:text="${voyaqqerer.voyaqqererAge}"></td>
+	</tr>
 	</table>
-
+	<a href="/voyaqqer">戻る</a>
 </body>
 </html>

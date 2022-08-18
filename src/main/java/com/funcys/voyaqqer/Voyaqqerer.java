@@ -27,6 +27,14 @@ public class Voyaqqerer {
 
 	public void setVoyaqqererId(String id) {
 		this.voyaqqererId = id;
-
+	}
+	public void setVoyaqqererName(String name) {
+		this.voyaqqererName = name;
+	}
+	public void setVoyaqqererProfile(String profile) {
+		this.voyaqqererProfile = profile;
+	}
+	public void setVoyaqqererAge(int age) {
+		this.voyaqqererAge = age;
 	}
 }
