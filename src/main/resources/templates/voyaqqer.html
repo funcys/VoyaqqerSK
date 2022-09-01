@@ -13,7 +13,7 @@
 	</form>
 	<br/>
 	<form method="post" action="/voyaqqer/db">
-		ボヤッカラーID：<input type="text" name="voyaqqererId" th:value="${voyaqqererId_value}" />
+		ボヤッカラーID：<input type="text" name="voyaqqererId"  /><!-- 「name="voyaqqererId"」の次に→これを「th:value="${voyaqqererId_value}"」 -->
 		<input type="submit" value="クリック" />
 	</form>
 </body>

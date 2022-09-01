@@ -12,6 +12,7 @@ public class VoyaqqererRepository {
 	@Autowired
 	private JdbcTemplate jdbcTemplate;
 
+	//1件取得
 	public Map<String,Object>findById(String id) {
 
 		//SELECT文
