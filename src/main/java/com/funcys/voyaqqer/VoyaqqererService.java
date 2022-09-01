@@ -33,6 +33,4 @@ public class VoyaqqererService {
 
 		return voyaqqerer;
 	}
-
-
 }
